@@ -53,7 +53,7 @@ Kontributor untuk aplikasi Peduli Corona, terima kasih atas kontribusinya.
 2. Kamu kah selanjutnya?
 
 ## Kontribusi
-Kamu ingin menjadi gabungan dari Peduli Corona? Kamu bisa membaca panduan untuk [berkontribusi kami](KONTRIBUSI).
+Kamu ingin menjadi gabungan dari Peduli Corona? Kamu bisa membaca panduan untuk [berkontribusi kami](KONTRIBUSI.md).
 
 ## LICENSE
 Peduli Corona berada di bawah lisensi [MIT LICENSE](LICENSE)
