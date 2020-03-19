@@ -85,6 +85,7 @@
               </ul>
             </div>
             <div class="col-lg-12 col-sm-12 mt-3 mt-lg-0 text-center">
+            <br><h1>Peduli Corona</h1></a><br>
               Data Provided by <a href="//kawalcorona.com/" target="_blank">Kawal Corona</a>. Made with <i class="fa fa-heart"></i> by <a href="//instagram.com/surya_maulana70" target="_blank">Surya1337</a> & <a href="//instagram.com/alfanjauhari_" target="_blank">Alfan Jauhari</a>
             </div>
           </div>
