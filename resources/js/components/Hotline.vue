@@ -20,7 +20,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:0215210411">021-5210-411</a>
-								<p class="text-center">Kementrian Kesehatan</p>
+								<p class="text-center">Kementrian Kesehatan Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -35,7 +35,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:081212123119">0812-1212-3119</a>
-								<p class="text-center">Kementrian Kesehatan</p>
+								<p class="text-center">Kementrian Kesehatan Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:112">112</a>
-								<p class="text-center">Layanan Darurat Seluruh Indonesia</p>
+								<p class="text-center">Layanan Seluruh Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:112">119</a>
-								<p class="text-center">Layanan Darurat Seluruh Indonesia</p>
+								<p class="text-center">Layanan Seluruh Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -186,6 +186,21 @@
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:08112764800">0811-2764-800</a>
 								<p class="text-center">Pemprov D.I. Yogyakarta</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+				<div class="card service">
+					<div class="card-body">
+						<div class="item-box text-center">
+							<div class="text-center mb-4 text-primary">
+								<img src="/images/rsudtulungagung.png" width="50" height="50" alt="RSUD Dr. Iskak Tulungagung">
+							</div>
+							<div class="inner">
+								<a class="font-weight-bold" href="tel:0355320119">(0355) 320119</a>
+								<p class="text-center">RSUD Dr. Iskak Tulungagung</p>
 							</div>
 						</div>
 					</div>
