@@ -101,6 +101,132 @@
 				</div>
 			</div>
 		</div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-light">
+                    <div class="card-header" style="border-radius:0px;">
+                        <h3 class="card-title">Daftar Kasus per Provinsi</h3> </div>
+                    <div style="overflow-x:auto;max-height:500px;">
+                        <div class="card-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="atasbro">Provinsi</th>
+                                        <th scope="col" class="atasbro">Terkonfirmasi</th>
+                                        <th scope="col" class="atasbro">Sembuh</th>
+                                        <th scope="col" class="atasbro">Meninggal</th>
+                                     </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>DKI Jakarta</td>
+                                        <td>215</td>
+                                        <td>14</td>
+                                        <td>18</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jawa Barat</td>
+                                        <td>41</td>
+                                        <td>1</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Banten</td>
+                                        <td>37</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jawa Timur</td>
+                                        <td>15</td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jawa Tengah</td>
+                                        <td>12</td>
+                                        <td>0</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kalimantan Timur</td>
+                                        <td>10</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bali</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Daerah Istimewa Yogyakarta</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kepulauan Riau</td>
+                                        <td>4</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sulawesi Tenggara</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kalimantan Barat</td>
+                                        <td>3</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sumatera Utara</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sulawesi Selatan</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kalimantan Tengah</td>
+                                        <td>2</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sulawesi Utara</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lampung</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Riau</td>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 		<div class="jumbotron">
 			<div class="container"><br><br>
 				<h1 class="m-0 text-dark text-center">

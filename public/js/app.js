@@ -2600,6 +2600,132 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Main',
   data: function data() {
@@ -40194,7 +40320,9 @@ var render = function() {
     _vm._v(" "),
     _vm._m(7),
     _vm._v(" "),
-    _vm._m(8)
+    _vm._m(8),
+    _vm._v(" "),
+    _vm._m(9)
   ])
 }
 var staticRenderFns = [
@@ -40306,6 +40434,239 @@ var staticRenderFns = [
         _c("th", [_vm._v("Jumlah Warga Meninggal")]),
         _vm._v(" "),
         _c("th", [_vm._v("Jumlah Warga Sembuh")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-6" }, [
+        _c("div", { staticClass: "card card-light" }, [
+          _c(
+            "div",
+            {
+              staticClass: "card-header",
+              staticStyle: { "border-radius": "0px" }
+            },
+            [
+              _c("h3", { staticClass: "card-title" }, [
+                _vm._v("Daftar Kasus per Provinsi")
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticStyle: { "overflow-x": "auto", "max-height": "500px" } },
+            [
+              _c("div", { staticClass: "card-body" }, [
+                _c("table", { staticClass: "table" }, [
+                  _c("thead", [
+                    _c("tr", [
+                      _c(
+                        "th",
+                        { staticClass: "atasbro", attrs: { scope: "col" } },
+                        [_vm._v("Provinsi")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "th",
+                        { staticClass: "atasbro", attrs: { scope: "col" } },
+                        [_vm._v("Terkonfirmasi")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "th",
+                        { staticClass: "atasbro", attrs: { scope: "col" } },
+                        [_vm._v("Sembuh")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "th",
+                        { staticClass: "atasbro", attrs: { scope: "col" } },
+                        [_vm._v("Meninggal")]
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("tbody", [
+                    _c("tr", [
+                      _c("td", [_vm._v("DKI Jakarta")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("215")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("14")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("18")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Jawa Barat")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("41")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("7")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Banten")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("37")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Jawa Timur")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("15")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Jawa Tengah")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("12")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("3")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Kalimantan Timur")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("10")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Bali")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("4")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Daerah Istimewa Yogyakarta")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("4")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Kepulauan Riau")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("4")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Sulawesi Tenggara")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("3")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Kalimantan Barat")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("3")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Sumatera Utara")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("2")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Sulawesi Selatan")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("2")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Kalimantan Tengah")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("2")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Sulawesi Utara")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Lampung")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ]),
+                    _vm._v(" "),
+                    _c("tr", [
+                      _c("td", [_vm._v("Riau")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("1")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")]),
+                      _vm._v(" "),
+                      _c("td", [_vm._v("0")])
+                    ])
+                  ])
+                ])
+              ])
+            ]
+          )
+        ])
       ])
     ])
   },
