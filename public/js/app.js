@@ -2341,6 +2341,49 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Hotline'
 });
@@ -38915,7 +38958,7 @@ var render = function() {
                                   [
                                     _c(
                                       "router-link",
-                                      { attrs: { to: "/kontak" } },
+                                      { attrs: { to: "/hotline" } },
                                       [_c("b", [_vm._v("HOTLINE CORONA")])]
                                     )
                                   ],
@@ -38928,7 +38971,7 @@ var render = function() {
                                   [
                                     _c(
                                       "router-link",
-                                      { attrs: { to: "/hotline" } },
+                                      { attrs: { to: "/kontak" } },
                                       [_c("b", [_vm._v("KONTAK")])]
                                     )
                                   ],
@@ -39008,8 +39051,7 @@ var staticRenderFns = [
                     {
                       staticClass: "social-icon",
                       attrs: {
-                        href:
-                          "//github.com/TulungagungCyberLink/covid19-webinterface",
+                        href: "//github.com/alfanjauhari/crona",
                         target: "_blank"
                       }
                     },
@@ -39845,8 +39887,33 @@ var staticRenderFns = [
               ])
             ])
           ])
-        ]),
-        _vm._v(" "),
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "jumbotron" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("br"),
+          _c("br"),
+          _vm._v(" "),
+          _c("h1", { staticClass: "m-0 text-dark text-center" }, [
+            _vm._v(
+              "\n\t\t\t\tHotline Virus Corona (COVID-19) Untuk Kabupaten Dan Kota\n\t\t\t"
+            )
+          ]),
+          _vm._v(" "),
+          _c("h5", { staticClass: "lead m-0 text-center" }, [
+            _c("small", [
+              _vm._v(
+                "Untuk saat ini hanya ada beberapa Hotline Kabupaten Dan Kota, "
+              ),
+              _c("br"),
+              _vm._v("namun kami akan mencari hotline daerah-daerah yang lain.")
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-sm-12 col-md-12 col-lg-6 col-xl-3" }, [
           _c("div", { staticClass: "card service" }, [
             _c("div", { staticClass: "card-body" }, [
@@ -39874,6 +39941,74 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("p", { staticClass: "text-center" }, [
                     _vm._v("RSUD Dr. Iskak Tulungagung")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-12 col-md-12 col-lg-6 col-xl-3" }, [
+          _c("div", { staticClass: "card service" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "item-box text-center" }, [
+                _c("div", { staticClass: "text-center mb-4 text-primary" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/blitarkota.png",
+                      width: "40",
+                      height: "50",
+                      alt: "Blitar Kota"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "inner" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "font-weight-bold",
+                      attrs: { href: "tel:0342804063" }
+                    },
+                    [_vm._v("(0342) 804063")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-center" }, [
+                    _vm._v("Covid-19 CENTRE KOTA BLITAR")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-12 col-md-12 col-lg-6 col-xl-3" }, [
+          _c("div", { staticClass: "card service" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "item-box text-center" }, [
+                _c("div", { staticClass: "text-center mb-4 text-primary" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/blitarkota.png",
+                      width: "40",
+                      height: "50",
+                      alt: "Blitar Kota"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "inner" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "font-weight-bold",
+                      attrs: { href: "tel:08113184157" }
+                    },
+                    [_vm._v("0811-3184-157")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-center" }, [
+                    _vm._v("Covid-19 CENTRE KOTA BLITAR")
                   ])
                 ])
               ])
