@@ -38915,7 +38915,7 @@ var render = function() {
                                   [
                                     _c(
                                       "router-link",
-                                      { attrs: { to: "/kontak" } },
+                                      { attrs: { to: "/hotline" } },
                                       [_c("b", [_vm._v("HOTLINE CORONA")])]
                                     )
                                   ],
@@ -38928,7 +38928,7 @@ var render = function() {
                                   [
                                     _c(
                                       "router-link",
-                                      { attrs: { to: "/hotline" } },
+                                      { attrs: { to: "/kontak" } },
                                       [_c("b", [_vm._v("KONTAK")])]
                                     )
                                   ],
@@ -40143,7 +40143,8 @@ var staticRenderFns = [
         attrs: {
           src: "/images/icons/indonesia.png",
           alt: "Positif",
-          width: "100"
+          width: "50",
+          height: "50"
         }
       })
     ])

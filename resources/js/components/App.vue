@@ -48,10 +48,10 @@
                             <router-link to="/"><b>HOME</b></router-link>
                           </li>
                           <li aria-haspopup="true">
-                            <router-link to="/kontak"><b>HOTLINE CORONA</b></router-link>
+                            <router-link to="/hotline"><b>HOTLINE CORONA</b></router-link>
                           </li>
                           <li aria-haspopup="true">
-                            <router-link to="/hotline"><b>KONTAK</b></router-link>
+                            <router-link to="/kontak"><b>KONTAK</b></router-link>
                           </li>
                         </ul>
                       </nav>
