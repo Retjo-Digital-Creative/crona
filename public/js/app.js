@@ -2004,6 +2004,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App'
 });
@@ -2128,6 +2129,21 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -38900,7 +38916,7 @@ var render = function() {
                                     _c(
                                       "router-link",
                                       { attrs: { to: "/kontak" } },
-                                      [_c("b", [_vm._v("KONTAK")])]
+                                      [_c("b", [_vm._v("HOTLINE CORONA")])]
                                     )
                                   ],
                                   1
@@ -38913,7 +38929,7 @@ var render = function() {
                                     _c(
                                       "router-link",
                                       { attrs: { to: "/hotline" } },
-                                      [_c("b", [_vm._v("HOTLINE")])]
+                                      [_c("b", [_vm._v("KONTAK")])]
                                     )
                                   ],
                                   1
@@ -39007,6 +39023,9 @@ var staticRenderFns = [
               "div",
               { staticClass: "col-lg-12 col-sm-12 mt-3 mt-lg-0 text-center" },
               [
+                _c("br"),
+                _c("h1", [_vm._v("Peduli Corona")]),
+                _c("br"),
                 _vm._v("\n            Data Provided by "),
                 _c(
                   "a",
@@ -39446,7 +39465,7 @@ var staticRenderFns = [
                   ),
                   _vm._v(" "),
                   _c("p", { staticClass: "text-center" }, [
-                    _vm._v("Kementrian Kesehatan")
+                    _vm._v("Kementrian Kesehatan Indonesia")
                   ])
                 ])
               ])
@@ -39480,7 +39499,7 @@ var staticRenderFns = [
                   ),
                   _vm._v(" "),
                   _c("p", { staticClass: "text-center" }, [
-                    _vm._v("Kementrian Kesehatan")
+                    _vm._v("Kementrian Kesehatan Indonesia")
                   ])
                 ])
               ])
@@ -39514,7 +39533,7 @@ var staticRenderFns = [
                   ),
                   _vm._v(" "),
                   _c("p", { staticClass: "text-center" }, [
-                    _vm._v("Layanan Darurat Seluruh Indonesia")
+                    _vm._v("Layanan Seluruh Indonesia")
                   ])
                 ])
               ])
@@ -39548,7 +39567,7 @@ var staticRenderFns = [
                   ),
                   _vm._v(" "),
                   _c("p", { staticClass: "text-center" }, [
-                    _vm._v("Layanan Darurat Seluruh Indonesia")
+                    _vm._v("Layanan Seluruh Indonesia")
                   ])
                 ])
               ])
@@ -39821,6 +39840,40 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("p", { staticClass: "text-center" }, [
                     _vm._v("Pemprov D.I. Yogyakarta")
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-sm-12 col-md-12 col-lg-6 col-xl-3" }, [
+          _c("div", { staticClass: "card service" }, [
+            _c("div", { staticClass: "card-body" }, [
+              _c("div", { staticClass: "item-box text-center" }, [
+                _c("div", { staticClass: "text-center mb-4 text-primary" }, [
+                  _c("img", {
+                    attrs: {
+                      src: "/images/rsudtulungagung.png",
+                      width: "50",
+                      height: "50",
+                      alt: "RSUD Dr. Iskak Tulungagung"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "inner" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "font-weight-bold",
+                      attrs: { href: "tel:0355320119" }
+                    },
+                    [_vm._v("(0355) 320119")]
+                  ),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-center" }, [
+                    _vm._v("RSUD Dr. Iskak Tulungagung")
                   ])
                 ])
               ])
@@ -56236,8 +56289,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\crona\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\crona\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! c:\xampp\htdocs\pedulicorona\crona-1\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! c:\xampp\htdocs\pedulicorona\crona-1\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
