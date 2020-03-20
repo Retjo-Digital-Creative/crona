@@ -32,7 +32,7 @@
               </div>
             </div>
             <!-- End Header -->
-            <!-- MObile Header -->
+            <!-- Mobile Header -->
             <div class="mobile-header hor-mobile-header">
               <div class="container">
                 <div class="d-flex">
@@ -48,10 +48,10 @@
                             <router-link to="/"><b>HOME</b></router-link>
                           </li>
                           <li aria-haspopup="true">
-                            <router-link to="/kontak"><b>KONTAK</b></router-link>
+                            <router-link to="/hotline"><b>HOTLINE CORONA</b></router-link>
                           </li>
                           <li aria-haspopup="true">
-                            <router-link to="/hotline"><b>HOTLINE</b></router-link>
+                            <router-link to="/kontak"><b>KONTAK</b></router-link>
                           </li>
                         </ul>
                       </nav>
@@ -80,11 +80,12 @@
                   <a href="//instagram.com/tulungagungcyberlink" class="social-icon" target="_blank"><i class="fa fa-instagram"></i></a>
                 </li>
                 <li>
-                  <a class="social-icon" href="//github.com/TulungagungCyberLink/covid19-webinterface" target="_blank"><i class="fa fa-github"></i></a>
+                  <a class="social-icon" href="//github.com/alfanjauhari/crona" target="_blank"><i class="fa fa-github"></i></a>
                 </li>
               </ul>
             </div>
             <div class="col-lg-12 col-sm-12 mt-3 mt-lg-0 text-center">
+            <br><h1>Peduli Corona</h1></a><br>
               Data Provided by <a href="//kawalcorona.com/" target="_blank">Kawal Corona</a>. Made with <i class="fa fa-heart"></i> by <a href="//instagram.com/surya_maulana70" target="_blank">Surya1337</a> & <a href="//instagram.com/alfanjauhari_" target="_blank">Alfan Jauhari</a>
             </div>
           </div>

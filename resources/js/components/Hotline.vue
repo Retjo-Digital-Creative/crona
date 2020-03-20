@@ -20,7 +20,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:0215210411">021-5210-411</a>
-								<p class="text-center">Kementrian Kesehatan</p>
+								<p class="text-center">Kementrian Kesehatan Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -35,7 +35,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:081212123119">0812-1212-3119</a>
-								<p class="text-center">Kementrian Kesehatan</p>
+								<p class="text-center">Kementrian Kesehatan Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:112">112</a>
-								<p class="text-center">Layanan Darurat Seluruh Indonesia</p>
+								<p class="text-center">Layanan Seluruh Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 							</div>
 							<div class="inner">
 								<a class="font-weight-bold" href="tel:112">119</a>
-								<p class="text-center">Layanan Darurat Seluruh Indonesia</p>
+								<p class="text-center">Layanan Seluruh Indonesia</p>
 							</div>
 						</div>
 					</div>
@@ -190,6 +190,64 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="jumbotron">
+			<div class="container"><br><br>
+				<h1 class="m-0 text-dark text-center">
+					Hotline Virus Corona (COVID-19) Untuk Kabupaten Dan Kota
+				</h1>
+				<h5 class="lead m-0 text-center">
+					<small>Untuk saat ini hanya ada beberapa Hotline Kabupaten Dan Kota, <br>namun kami akan mencari hotline daerah-daerah yang lain.</small>
+				</h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+				<div class="card service">
+					<div class="card-body">
+						<div class="item-box text-center">
+							<div class="text-center mb-4 text-primary">
+								<img src="/images/rsudtulungagung.png" width="50" height="50" alt="RSUD Dr. Iskak Tulungagung">
+							</div>
+							<div class="inner">
+								<a class="font-weight-bold" href="tel:0355320119">(0355) 320119</a>
+								<p class="text-center">RSUD Dr. Iskak Tulungagung</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+				<div class="card service">
+					<div class="card-body">
+						<div class="item-box text-center">
+							<div class="text-center mb-4 text-primary">
+								<img src="/images/blitarkota.png" width="40" height="50" alt="Blitar Kota">
+							</div>
+							<div class="inner">
+								<a class="font-weight-bold" href="tel:0342804063">(0342) 804063</a>
+								<p class="text-center">Covid-19 CENTRE KOTA BLITAR</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+				<div class="card service">
+					<div class="card-body">
+						<div class="item-box text-center">
+							<div class="text-center mb-4 text-primary">
+								<img src="/images/blitarkota.png" width="40" height="50" alt="Blitar Kota">
+							</div>
+							<div class="inner">
+								<a class="font-weight-bold" href="tel:08113184157">0811-3184-157</a>
+								<p class="text-center">Covid-19 CENTRE KOTA BLITAR</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
 	</div>
