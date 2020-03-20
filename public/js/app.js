@@ -40595,7 +40595,7 @@ var staticRenderFns = [
                     _c("tr", [
                       _c("td", [_vm._v("Kalimantan Barat")]),
                       _vm._v(" "),
-                      _c("td", [_vm._v("3")]),
+                      _c("td", [_vm._v("2")]),
                       _vm._v(" "),
                       _c("td", [_vm._v("0")]),
                       _vm._v(" "),
