@@ -72,6 +72,35 @@
 		<div class="text-center">
 			<small class="m-auto">Terakhir diupdate : {{ date }}</small>
 		</div>
+		<div class="card mt-4">
+			<div class="card-header">
+				<h3 class="card-title">
+					Update COVID-19 di Setiap Negara
+				</h3>
+			</div>
+			<div class="card-body">
+				<div class="table-responsive service">
+					<table class="table table-bordered table-hover mb-0 text-nowrap ">
+						<thead>
+							<tr>
+								<th>Nama Negara</th>
+								<th>Jumlah Warga Positif</th>
+								<th>Jumlah Warga Meninggal</th>
+								<th>Jumlah Warga Sembuh</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr v-for="global in globals" :key="global.id">
+								<td>{{ global.attributes.Country_Region }}</td>
+								<td>{{ global.attributes.Confirmed }}</td>
+								<td>{{ global.attributes.Deaths }}</td>
+								<td>{{ global.attributes.Recovered }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 		<div class="jumbotron">
 			<div class="container"><br><br>
 				<h1 class="m-0 text-dark text-center">
@@ -183,7 +212,8 @@
 					positif: '',
 					sembuh: ''
 				},
-				date: ''
+				date: '',
+				globals: ''
 			}
 		},
 		mounted() {
@@ -191,6 +221,7 @@
 		},
 		methods: {
 			load() {
+				let _that = this
 				// Get global positive
 				let today = new Date();
 				let dd = String(today.getDate()).padStart(2, '0');
@@ -222,6 +253,11 @@
 					this.indonesia.meninggal = response[0].meninggal
 					this.indonesia.positif = response[0].positif
 					this.indonesia.sembuh = response[0].sembuh
+				})
+
+				// Get all global
+				d3.json('https://api.kawalcorona.com/').then(response => {
+					this.globals = response
 				})
 			}
 		}
