@@ -101,6 +101,35 @@
 				</div>
 			</div>
 		</div>
+		<div class="card mt-4">
+			<div class="card-header">
+				<h3 class="card-title">
+					Update COVID-19 Setiap Provinsi di Indonesia
+				</h3>
+			</div>
+			<div class="card-body">
+				<div class="table-responsive service">
+					<table class="table table-bordered table-hover mb-0 text-nowrap ">
+						<thead>
+							<tr>
+								<th>Nama Provinsi</th>
+								<th>Kasus Positif Akumulatif</th>
+								<th>Kasus Sembuh Akumulatif</th>
+								<th>Kasus Meninggal Akumulatif</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr v-for="indo in indonesia.provinsi" :key="indo.id">
+								<td>{{ indo.attributes.Provinsi }}</td>
+								<td>{{ indo.attributes.Kasus_Terkonfirmasi_Akumulatif }}</td>
+								<td>{{ indo.attributes.Kasus_Sembuh_Akumulatif }}</td>
+								<td>{{ indo.attributes.Kasus_Meninggal_Akumulatif }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
 		<div class="jumbotron">
 			<div class="container"><br><br>
 				<h1 class="m-0 text-dark text-center">
@@ -210,7 +239,8 @@
 				indonesia: {
 					meninggal: '',
 					positif: '',
-					sembuh: ''
+					sembuh: '',
+					provinsi: {}
 				},
 				date: '',
 				globals: ''
@@ -258,6 +288,10 @@
 				// Get all global
 				d3.json('https://api.kawalcorona.com/').then(response => {
 					this.globals = response
+				})
+
+				d3.json('https://services5.arcgis.com/VS6HdKS0VfIhv8Ct/arcgis/rest/services/COVID19_Indonesia_per_Provinsi/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json').then(response => {
+					this.indonesia.provinsi = response.features
 				})
 			}
 		}
