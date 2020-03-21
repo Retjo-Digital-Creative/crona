@@ -40204,17 +40204,23 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "tbody",
-                _vm._l(_vm.globals, function(global) {
-                  return _c("tr", { key: global.id }, [
+                _vm._l(_vm.indonesia.provinsi, function(indo) {
+                  return _c("tr", { key: indo.id }, [
+                    _c("td", [_vm._v(_vm._s(indo.attributes.Provinsi))]),
+                    _vm._v(" "),
                     _c("td", [
-                      _vm._v(_vm._s(global.attributes.Country_Region))
+                      _vm._v(
+                        _vm._s(indo.attributes.Kasus_Terkonfirmasi_Akumulatif)
+                      )
                     ]),
                     _vm._v(" "),
-                    _c("td", [_vm._v(_vm._s(global.attributes.Confirmed))]),
+                    _c("td", [
+                      _vm._v(_vm._s(indo.attributes.Kasus_Sembuh_Akumulatif))
+                    ]),
                     _vm._v(" "),
-                    _c("td", [_vm._v(_vm._s(global.attributes.Deaths))]),
-                    _vm._v(" "),
-                    _c("td", [_vm._v(_vm._s(global.attributes.Recovered))])
+                    _c("td", [
+                      _vm._v(_vm._s(indo.attributes.Kasus_Meninggal_Akumulatif))
+                    ])
                   ])
                 }),
                 0
@@ -40240,23 +40246,17 @@ var render = function() {
               _vm._v(" "),
               _c(
                 "tbody",
-                _vm._l(_vm.indonesia.provinsi, function(indo) {
-                  return _c("tr", { key: indo.id }, [
-                    _c("td", [_vm._v(_vm._s(indo.attributes.Provinsi))]),
-                    _vm._v(" "),
+                _vm._l(_vm.globals, function(global) {
+                  return _c("tr", { key: global.id }, [
                     _c("td", [
-                      _vm._v(
-                        _vm._s(indo.attributes.Kasus_Terkonfirmasi_Akumulatif)
-                      )
+                      _vm._v(_vm._s(global.attributes.Country_Region))
                     ]),
                     _vm._v(" "),
-                    _c("td", [
-                      _vm._v(_vm._s(indo.attributes.Kasus_Sembuh_Akumulatif))
-                    ]),
+                    _c("td", [_vm._v(_vm._s(global.attributes.Confirmed))]),
                     _vm._v(" "),
-                    _c("td", [
-                      _vm._v(_vm._s(indo.attributes.Kasus_Meninggal_Akumulatif))
-                    ])
+                    _c("td", [_vm._v(_vm._s(global.attributes.Deaths))]),
+                    _vm._v(" "),
+                    _c("td", [_vm._v(_vm._s(global.attributes.Recovered))])
                   ])
                 }),
                 0
@@ -40364,32 +40364,6 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "card-header" }, [
       _c("h3", { staticClass: "card-title" }, [
-        _vm._v("\n\t\t\t\t\tUpdate COVID-19 di Setiap Negara\n\t\t\t\t")
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("thead", [
-      _c("tr", [
-        _c("th", [_vm._v("Nama Negara")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Jumlah Warga Positif")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Jumlah Warga Meninggal")]),
-        _vm._v(" "),
-        _c("th", [_vm._v("Jumlah Warga Sembuh")])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "card-header" }, [
-      _c("h3", { staticClass: "card-title" }, [
         _vm._v(
           "\n\t\t\t\t\tUpdate COVID-19 Setiap Provinsi di Indonesia\n\t\t\t\t"
         )
@@ -40409,6 +40383,32 @@ var staticRenderFns = [
         _c("th", [_vm._v("Kasus Sembuh Akumulatif")]),
         _vm._v(" "),
         _c("th", [_vm._v("Kasus Meninggal Akumulatif")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c("h3", { staticClass: "card-title" }, [
+        _vm._v("\n\t\t\t\t\tUpdate COVID-19 di Setiap Negara\n\t\t\t\t")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("Nama Negara")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Jumlah Warga Positif")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Jumlah Warga Meninggal")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Jumlah Warga Sembuh")])
       ])
     ])
   },
