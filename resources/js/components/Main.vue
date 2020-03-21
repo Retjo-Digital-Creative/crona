@@ -75,35 +75,6 @@
 		<div class="card mt-4">
 			<div class="card-header">
 				<h3 class="card-title">
-					Update COVID-19 di Setiap Negara
-				</h3>
-			</div>
-			<div class="card-body">
-				<div class="table-responsive service">
-					<table class="table table-bordered table-hover mb-0 text-nowrap ">
-						<thead>
-							<tr>
-								<th>Nama Negara</th>
-								<th>Jumlah Warga Positif</th>
-								<th>Jumlah Warga Meninggal</th>
-								<th>Jumlah Warga Sembuh</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr v-for="global in globals" :key="global.id">
-								<td>{{ global.attributes.Country_Region }}</td>
-								<td>{{ global.attributes.Confirmed }}</td>
-								<td>{{ global.attributes.Deaths }}</td>
-								<td>{{ global.attributes.Recovered }}</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-		<div class="card mt-4">
-			<div class="card-header">
-				<h3 class="card-title">
 					Update COVID-19 Setiap Provinsi di Indonesia
 				</h3>
 			</div>
@@ -124,6 +95,35 @@
 								<td>{{ indo.attributes.Kasus_Terkonfirmasi_Akumulatif }}</td>
 								<td>{{ indo.attributes.Kasus_Sembuh_Akumulatif }}</td>
 								<td>{{ indo.attributes.Kasus_Meninggal_Akumulatif }}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>		
+		<div class="card mt-4">
+			<div class="card-header">
+				<h3 class="card-title">
+					Update COVID-19 di Setiap Negara
+				</h3>
+			</div>
+			<div class="card-body">
+				<div class="table-responsive service">
+					<table class="table table-bordered table-hover mb-0 text-nowrap ">
+						<thead>
+							<tr>
+								<th>Nama Negara</th>
+								<th>Jumlah Warga Positif</th>
+								<th>Jumlah Warga Meninggal</th>
+								<th>Jumlah Warga Sembuh</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr v-for="global in globals" :key="global.id">
+								<td>{{ global.attributes.Country_Region }}</td>
+								<td>{{ global.attributes.Confirmed }}</td>
+								<td>{{ global.attributes.Deaths }}</td>
+								<td>{{ global.attributes.Recovered }}</td>
 							</tr>
 						</tbody>
 					</table>
