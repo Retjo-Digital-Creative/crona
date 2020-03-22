@@ -92,9 +92,9 @@
 						<tbody>
 							<tr v-for="indo in indonesia.provinsi" :key="indo.id">
 								<td>{{ indo.attributes.Provinsi }}</td>
-								<td>{{ indo.attributes.Kasus_Terkonfirmasi_Akumulatif }}</td>
-								<td>{{ indo.attributes.Kasus_Sembuh_Akumulatif }}</td>
-								<td>{{ indo.attributes.Kasus_Meninggal_Akumulatif }}</td>
+								<td>{{ indo.attributes.Kasus_Posi }}</td>
+								<td>{{ indo.attributes.Kasus_Semb }}</td>
+								<td>{{ indo.attributes.Kasus_Meni }}</td>
 							</tr>
 						</tbody>
 					</table>
