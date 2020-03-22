@@ -40208,19 +40208,11 @@ var render = function() {
                   return _c("tr", { key: indo.id }, [
                     _c("td", [_vm._v(_vm._s(indo.attributes.Provinsi))]),
                     _vm._v(" "),
-                    _c("td", [
-                      _vm._v(
-                        _vm._s(indo.attributes.Kasus_Terkonfirmasi_Akumulatif)
-                      )
-                    ]),
+                    _c("td", [_vm._v(_vm._s(indo.attributes.Kasus_Posi))]),
                     _vm._v(" "),
-                    _c("td", [
-                      _vm._v(_vm._s(indo.attributes.Kasus_Sembuh_Akumulatif))
-                    ]),
+                    _c("td", [_vm._v(_vm._s(indo.attributes.Kasus_Semb))]),
                     _vm._v(" "),
-                    _c("td", [
-                      _vm._v(_vm._s(indo.attributes.Kasus_Meninggal_Akumulatif))
-                    ])
+                    _c("td", [_vm._v(_vm._s(indo.attributes.Kasus_Meni))])
                   ])
                 }),
                 0
