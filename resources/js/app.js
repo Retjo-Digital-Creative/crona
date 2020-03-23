@@ -33,6 +33,7 @@ import Main from './components/Main.vue'
 import Contact from './components/Contact.vue'
 import NotFound from './components/NotFound.vue'
 import Hotline from './components/Hotline.vue'
+import JawaTimur from './components/JawaTimur.vue'
 import News from './components/News.vue'
 import App from './components/App.vue'
 
@@ -43,7 +44,8 @@ const routes = [
 	{ path: '/kontak', component: Contact },
 	{ path: '/hotline', component: Hotline },
 	{ path: '/404', component: NotFound },
-	{ path: '*', redirect: '/404' }
+	{ path: '*', redirect: '/404' },
+	{ path: '/jawatimur', component: JawaTimur }
 ]
 
 const router = new VueRouter({

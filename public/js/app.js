@@ -2005,6 +2005,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App'
 });
@@ -2386,6 +2392,48 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Hotline'
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/JawaTimur.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/JawaTimur.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: 'JawaTimur'
 });
 
 /***/ }),
@@ -38922,6 +38970,22 @@ var render = function() {
                             "li",
                             { attrs: { "aria-haspopup": "true" } },
                             [
+                              _c(
+                                "router-link",
+                                { attrs: { to: "/jawatimur" } },
+                                [
+                                  _c("i", { staticClass: "fa fa-map-marker" }),
+                                  _c("b", [_vm._v("Jawa Timur")])
+                                ]
+                              )
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "li",
+                            { attrs: { "aria-haspopup": "true" } },
+                            [
                               _c("router-link", { attrs: { to: "/kontak" } }, [
                                 _c("i", { staticClass: "fa fa-envelope" }),
                                 _c("b", [_vm._v("KONTAK")])
@@ -38993,6 +39057,19 @@ var render = function() {
                                       "router-link",
                                       { attrs: { to: "/hotline" } },
                                       [_c("b", [_vm._v("HOTLINE CORONA")])]
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "li",
+                                  { attrs: { "aria-haspopup": "true" } },
+                                  [
+                                    _c(
+                                      "router-link",
+                                      { attrs: { to: "/jawatimur" } },
+                                      [_c("b", [_vm._v("Jawa Timur")])]
                                     )
                                   ],
                                   1
@@ -40046,6 +40123,81 @@ var staticRenderFns = [
                 ])
               ])
             ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/JawaTimur.vue?vue&type=template&id=365a7f99&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/JawaTimur.vue?vue&type=template&id=365a7f99& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "jawatimur" }, [
+      _c("div", { staticClass: "jumbotron" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("br"),
+          _c("br"),
+          _vm._v(" "),
+          _c("h1", { staticClass: "m-0 text-dark text-center" }, [
+            _vm._v(
+              "\n\t\t\t\t\tPeta Persebaran Coronavirus (Covid-19) Wilayah Jawa Timur\n\t\t\t\t"
+            )
+          ]),
+          _vm._v(" "),
+          _c("h5", { staticClass: "lead m-0 text-center" }, [
+            _c("small", { staticClass: "lead" }, [
+              _vm._v(
+                "data persebaran Coronavirus di Jawa Timur diambil langsung dari infocovid19.jatimprov.go.id"
+              )
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "card mt-4" }, [
+          _c("div", { staticClass: "card-header" }, [
+            _c("h3", { staticClass: "card-title" }, [
+              _vm._v(
+                "\n    \t\t\t\t\t    Update Penyebaran Coronavirus (COVID-19) Provinsi Jawa Timur\n\t    \t\t\t"
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", [
+            _c("iframe", {
+              staticStyle: { border: "none" },
+              attrs: {
+                src: "https://covid19dev.jatimprov.go.id/xweb/draxi",
+                width: "100%",
+                height: "1450px"
+              }
+            })
           ])
         ])
       ])
@@ -55871,8 +56023,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Contact_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Contact.vue */ "./resources/js/components/Contact.vue");
 /* harmony import */ var _components_NotFound_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/NotFound.vue */ "./resources/js/components/NotFound.vue");
 /* harmony import */ var _components_Hotline_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Hotline.vue */ "./resources/js/components/Hotline.vue");
-/* harmony import */ var _components_News_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/News.vue */ "./resources/js/components/News.vue");
-/* harmony import */ var _components_App_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/App.vue */ "./resources/js/components/App.vue");
+/* harmony import */ var _components_JawaTimur_vue__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/JawaTimur.vue */ "./resources/js/components/JawaTimur.vue");
+/* harmony import */ var _components_News_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/News.vue */ "./resources/js/components/News.vue");
+/* harmony import */ var _components_App_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/App.vue */ "./resources/js/components/App.vue");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -55906,6 +56059,7 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 
 
 
+
 Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
 var routes = [{
   path: '/',
@@ -55922,6 +56076,9 @@ var routes = [{
 }, {
   path: '*',
   redirect: '/404'
+}, {
+  path: '/jawatimur',
+  component: _components_JawaTimur_vue__WEBPACK_IMPORTED_MODULE_6__["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   mode: 'history',
@@ -55931,7 +56088,7 @@ var app = new Vue({
   router: router,
   el: '#app',
   components: {
-    App: _components_App_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
+    App: _components_App_vue__WEBPACK_IMPORTED_MODULE_8__["default"]
   }
 });
 
@@ -56289,6 +56446,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hotline_vue_vue_type_template_id_93cc92b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hotline_vue_vue_type_template_id_93cc92b4_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/JawaTimur.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/JawaTimur.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _JawaTimur_vue_vue_type_template_id_365a7f99___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./JawaTimur.vue?vue&type=template&id=365a7f99& */ "./resources/js/components/JawaTimur.vue?vue&type=template&id=365a7f99&");
+/* harmony import */ var _JawaTimur_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./JawaTimur.vue?vue&type=script&lang=js& */ "./resources/js/components/JawaTimur.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _JawaTimur_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _JawaTimur_vue_vue_type_template_id_365a7f99___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _JawaTimur_vue_vue_type_template_id_365a7f99___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/JawaTimur.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/JawaTimur.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/JawaTimur.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_JawaTimur_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./JawaTimur.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/JawaTimur.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_JawaTimur_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/JawaTimur.vue?vue&type=template&id=365a7f99&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/JawaTimur.vue?vue&type=template&id=365a7f99& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JawaTimur_vue_vue_type_template_id_365a7f99___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./JawaTimur.vue?vue&type=template&id=365a7f99& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/JawaTimur.vue?vue&type=template&id=365a7f99&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JawaTimur_vue_vue_type_template_id_365a7f99___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_JawaTimur_vue_vue_type_template_id_365a7f99___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

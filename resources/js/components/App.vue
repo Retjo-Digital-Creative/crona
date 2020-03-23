@@ -23,6 +23,9 @@
                           <router-link to="/hotline"><i class="fa fa-phone"></i><b>HOTLINE CORONA</b></router-link>
                         </li>
                         <li aria-haspopup="true">
+                          <router-link to="/jawatimur"><i class="fa fa-map-marker"></i><b>Jawa Timur</b></router-link>
+                        </li>
+                        <li aria-haspopup="true">
                           <router-link to="/kontak"><i class="fa fa-envelope"></i><b>KONTAK</b></router-link>
                         </li>
                       </ul>
@@ -49,6 +52,9 @@
                           </li>
                           <li aria-haspopup="true">
                             <router-link to="/hotline"><b>HOTLINE CORONA</b></router-link>
+                          </li>
+                          <li aria-haspopup="true">
+                            <router-link to="/jawatimur"><b>Jawa Timur</b></router-link>
                           </li>
                           <li aria-haspopup="true">
                             <router-link to="/kontak"><b>KONTAK</b></router-link>
