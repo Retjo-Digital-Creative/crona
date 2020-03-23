@@ -34,6 +34,8 @@ import Contact from './components/Contact.vue'
 import NotFound from './components/NotFound.vue'
 import Hotline from './components/Hotline.vue'
 import JawaTimur from './components/JawaTimur.vue'
+import TermOfService from './components/TermOfService.vue'
+import About from './components/About.vue'
 import News from './components/News.vue'
 import App from './components/App.vue'
 
@@ -45,7 +47,9 @@ const routes = [
 	{ path: '/hotline', component: Hotline },
 	{ path: '/404', component: NotFound },
 	{ path: '*', redirect: '/404' },
-	{ path: '/jawatimur', component: JawaTimur }
+	{ path: '/jawatimur', component: JawaTimur },
+	{ path: '/about', component: About },
+	{ path: '/termofservice', component: TermOfService }
 ]
 
 const router = new VueRouter({
