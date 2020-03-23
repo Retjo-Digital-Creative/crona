@@ -1,22 +1,25 @@
 <template>
 	<div class="jawatimur">
-		<div class="jumbotron">
-			<div class="container"><br><br>
-				<h1 class="m-0 text-dark text-center">
-					Terms of Service Website Pedulicorona.com 
-				</h1>
-				<h5 class="lead m-0 text-center">
-					<small class="lead"></small>
-				</h5>
+		<div class="container mt-4">
+			<div class="card">
+				<div class="card-header">
+					<h1>Terms of Service</h1>
+				</div>
+				<div class="card-body">
+					<p>
+						Peduli Corona adalah situs update Live Data terkait Corona Virus(COVID-19) di Indonesia dan Dunia. Setiap konten yang ada di sini dapat dipertanggung jawabkan keaslian dan kredibilitasnya.
+					</p>
+					<p>
+						Pengunjung Peduli Corona dapat menggunakan seluruh isi konten dan aplikasi ini dengan bebas dan gratis, dengan beberapa ketentuan yang telah ditulis di <a href="https://github.com/alfanjauhari/crona/blob/master/LICENSE">LICENSE</a> berikut.
+					</p>
+					<p>
+						Peduli Corona selalu mengambil informasi-informasi yang dapat dipercaya dari situs-situs pemerintah maupun situs-situs berita populer di Indonesia. <b>Apabila ada informasi yang salah atau tidak benar, Peduli Corona akan segera memperbarui informasi tersebut dan akan memberikan penjelasan terkait informasi yang tidak benar tersebut.</b>
+					</p>
+					<p>
+						Peduli Corona tidak mengambil data apapun dan tidak akan mengambil data pribadi anda untuk keuntungan pribadi maupun kepentingan publik. <b>Peduli Corona tidak bertanggung jawab apabila ada oknum yang menggunakan data dari Peduli Corona demi kepentingan pribadi dan menyalahgunakannya.</b>
+					</p>
+				</div>
 			</div>
-		</div>
-		<div class="container">
-            Pedulicorona adalah website penyedia Live Monitoring data kasus virus corona di seluruh Indonesia dan Dunia yang terhubung dengan realtime data pada website government maupun bukan government.<br>
-
-            Pedulicorona melalui website pedulicorona.com menyediakan realtime data monitoring virus corona di seluruh Indonesia dan Dunia<br>
-
-            Pedulicorona menyatakan bahwa data yang berada di website pedulicorona.com bisa dipertanggung jawabkan, sudah di jelaskan pada pembukan bahwa data yang ada di pedulicorona.com diambil dari realtime data government<br>
-
 		</div>    
 	</div>
 </template>

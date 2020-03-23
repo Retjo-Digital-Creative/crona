@@ -292,6 +292,7 @@
 
 				d3.json('https://services5.arcgis.com/VS6HdKS0VfIhv8Ct/arcgis/rest/services/COVID19_Indonesia_per_Provinsi/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json').then(response => {
 					this.indonesia.provinsi = response.features
+					console.log(this.indonesia.provinsi)
 				})
 			}
 		}
