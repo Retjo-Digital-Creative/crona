@@ -26,6 +26,12 @@
                           <router-link to="/jawatimur"><i class="fa fa-map-marker"></i><b>Jawa Timur</b></router-link>
                         </li>
                         <li aria-haspopup="true">
+                          <router-link to="/about"><i class="fa fa-envelope"></i><b>ABOUT</b></router-link>
+                        </li>
+                        <li aria-haspopup="true">
+                          <router-link to="/termofservice"><i class="fa fa-envelope"></i><b>TERM OF SERVICE</b></router-link>
+                        </li>
+                        <li aria-haspopup="true">
                           <router-link to="/kontak"><i class="fa fa-envelope"></i><b>KONTAK</b></router-link>
                         </li>
                       </ul>
@@ -55,6 +61,12 @@
                           </li>
                           <li aria-haspopup="true">
                             <router-link to="/jawatimur"><b>Jawa Timur</b></router-link>
+                          </li>
+                          <li aria-haspopup="true">
+                            <router-link to="/about"><b>ABOUT</b></router-link>
+                          </li>
+                          <li aria-haspopup="true">
+                            <router-link to="/termofservice"><b>TERM OF SERVICE</b></router-link>
                           </li>
                           <li aria-haspopup="true">
                             <router-link to="/kontak"><b>KONTAK</b></router-link>
