@@ -28,12 +28,6 @@
                         <li aria-haspopup="true">
                           <router-link to="/about"><i class="fa fa-info"></i><b>ABOUT</b></router-link>
                         </li>
-                        <li aria-haspopup="true">
-                          <router-link to="/tos"><i class="fa fa-gavel"></i><b>TERM OF SERVICE</b></router-link>
-                        </li>
-                        <li aria-haspopup="true">
-                          <router-link to="/kontak"><i class="fa fa-envelope"></i><b>KONTAK</b></router-link>
-                        </li>
                       </ul>
                     </nav>
                   </div>
@@ -64,12 +58,6 @@
                           </li>
                           <li aria-haspopup="true">
                             <router-link to="/about"><b>ABOUT</b></router-link>
-                          </li>
-                          <li aria-haspopup="true">
-                            <router-link to="/tos"><b>TERM OF SERVICE</b></router-link>
-                          </li>
-                          <li aria-haspopup="true">
-                            <router-link to="/kontak"><b>KONTAK</b></router-link>
                           </li>
                         </ul>
                       </nav>
@@ -103,8 +91,9 @@
               </ul>
             </div>
             <div class="col-lg-12 col-sm-12 mt-3 mt-lg-0 text-center">
-            <br><h1>Peduli Corona</h1></a><br>
-              Data Provided by <a href="//kawalcorona.com/" target="_blank">Kawal Corona</a>. Made with <i class="fa fa-heart"></i> by <a href="//instagram.com/surya_maulana70" target="_blank">Surya1337</a> & <a href="//instagram.com/alfanjauhari_" target="_blank">Alfan Jauhari</a>
+            <br><h1>Peduli Corona</h1></a>
+              <a href="/kontak">Kontak</a> | <a href="/tos">Term Of Service</a><br>
+              Data Provided by <a href="//kawalcorona.com/" target="_blank">Kawal Corona</a> and <a href="https://bnpb-inacovid19.hub.arcgis.com/datasets/">HUB INACOVID-19</a>. Made with <i class="fa fa-heart"></i> by <a href="//instagram.com/surya_maulana70" target="_blank">Surya1337</a> & <a href="//instagram.com/alfanjauhari_" target="_blank">Alfan Jauhari</a>
             </div>
           </div>
         </div>
