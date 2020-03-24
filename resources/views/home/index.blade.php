@@ -7,6 +7,7 @@
     <meta name="description" content="Live Data & Statistik Penyebaran Virus Corona di Indonesia dan Dunia">
     <meta name="author" content="Peduli Corona">
 
+    <meta name="google-site-verification" content="N_hXQgjyxwfuSMnwmUVhOwoZmR0RCXa5s7P4UO1pkl8" />
     <meta property="og:title" content="The Journey of Covid-19 in Indonesia - Peduli Corona" />
     <meta property="og:description" content="Live Data & Penyebaran Coronavirus (Covid-19) Di Indonesia Dan Dunia" />
     <meta property="og:type" content="website" />
@@ -29,7 +30,7 @@
 <body>
   <!-- Start Here -->
   <div id="app">
-      <App></App>
+    <App></App>
   </div>
 
   <script src="{{ asset('js/main.js') }}"></script>
