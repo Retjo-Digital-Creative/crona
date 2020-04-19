@@ -26,6 +26,7 @@
     <!--- FONT-ICONS CSS -->
     <link href="{{ asset('data/css/icons.css') }}" rel="stylesheet" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/nprogress.css') }}">
 </head>
 <body>
   <!-- Start Here -->
