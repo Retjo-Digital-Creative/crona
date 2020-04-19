@@ -2712,6 +2712,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Main',
   data: function data() {
@@ -40918,11 +40936,21 @@ var render = function() {
                     _vm._v("TOTAL POSITIF")
                   ]),
                   _vm._v(" "),
-                  _c("h2", { staticClass: "mb-0 number-font" }, [
-                    _vm._v(_vm._s(_vm.positif))
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "text-white mb-0" }, [_vm._v("ORANG")])
+                  _vm.positif
+                    ? _c("div", [
+                        _c("h2", { staticClass: "mb-0 number-font" }, [
+                          _vm._v(_vm._s(_vm.positif))
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-white mb-0" }, [
+                          _vm._v("ORANG")
+                        ])
+                      ])
+                    : _c("div", [
+                        _c("h2", { staticClass: "mb-0 number-font" }, [
+                          _vm._v("Loading...")
+                        ])
+                      ])
                 ]),
                 _vm._v(" "),
                 _vm._m(1)
@@ -40941,11 +40969,21 @@ var render = function() {
                   _vm._v("TOTAL MENINGGAL")
                 ]),
                 _vm._v(" "),
-                _c("h2", { staticClass: "mb-0 number-font" }, [
-                  _vm._v(_vm._s(_vm.meninggal))
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "text-white mb-0" }, [_vm._v("ORANG")])
+                _vm.meninggal
+                  ? _c("div", [
+                      _c("h2", { staticClass: "mb-0 number-font" }, [
+                        _vm._v(_vm._s(_vm.meninggal))
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "text-white mb-0" }, [
+                        _vm._v("ORANG")
+                      ])
+                    ])
+                  : _c("div", [
+                      _c("h2", { staticClass: "mb-0 number-font" }, [
+                        _vm._v("Loading...")
+                      ])
+                    ])
               ]),
               _vm._v(" "),
               _vm._m(2)
@@ -40966,11 +41004,21 @@ var render = function() {
                     _vm._v("TOTAL SEMBUH")
                   ]),
                   _vm._v(" "),
-                  _c("h2", { staticClass: "mb-0 number-font" }, [
-                    _vm._v(_vm._s(_vm.sembuh))
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "text-white mb-0" }, [_vm._v("ORANG")])
+                  _vm.sembuh
+                    ? _c("div", [
+                        _c("h2", { staticClass: "mb-0 number-font" }, [
+                          _vm._v(_vm._s(_vm.sembuh))
+                        ]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-white mb-0" }, [
+                          _vm._v("ORANG")
+                        ])
+                      ])
+                    : _c("div", [
+                        _c("h2", { staticClass: "mb-0 number-font" }, [
+                          _vm._v("Loading...")
+                        ])
+                      ])
                 ]),
                 _vm._v(" "),
                 _vm._m(3)
@@ -40993,14 +41041,20 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _c("p", { staticClass: "text-white mb-0" }, [
-                    _vm._v(
-                      _vm._s(_vm.indonesia.positif) +
-                        " POSITIF, " +
-                        _vm._s(_vm.indonesia.sembuh) +
-                        " SEMBUH, " +
-                        _vm._s(_vm.indonesia.meninggal) +
-                        " MENINGGAL"
-                    )
+                    _vm.indonesia.positif &&
+                    _vm.indonesia.sembuh &&
+                    _vm.indonesia.meninggal
+                      ? _c("span", [
+                          _vm._v(
+                            _vm._s(_vm.indonesia.positif) +
+                              " POSITIF, " +
+                              _vm._s(_vm.indonesia.sembuh) +
+                              " SEMBUH, " +
+                              _vm._s(_vm.indonesia.meninggal) +
+                              " MENINGGAL"
+                          )
+                        ])
+                      : _c("span", [_vm._v("Loading...")])
                   ])
                 ]),
                 _vm._v(" "),

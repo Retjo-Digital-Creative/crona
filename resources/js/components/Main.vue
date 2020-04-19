@@ -17,8 +17,13 @@
 						<div class="d-flex">
 							<div class="text-white">
 								<p class="text-white mb-0">TOTAL POSITIF</p>
-								<h2 class="mb-0 number-font">{{ positif }}</h2>
-								<p class="text-white mb-0">ORANG</p>
+								<div v-if="positif">
+									<h2 class="mb-0 number-font">{{ positif }}</h2>
+									<p class="text-white mb-0">ORANG</p>
+								</div>
+								<div v-else>
+									<h2 class="mb-0 number-font">Loading...</h2>
+								</div>
 							</div>
 							<div class="ml-auto"> <img style="opacity: 0.4" src="/images/icons/mood-neutral-outline.svg" alt="Positif" width="50" height="50"> </div>
 						</div>
@@ -31,8 +36,13 @@
 						<div class="d-flex">
 							<div class="text-white">
 								<p class="text-white mb-0">TOTAL MENINGGAL</p>
-								<h2 class="mb-0 number-font">{{ meninggal }}</h2>
-								<p class="text-white mb-0">ORANG</p>
+								<div v-if="meninggal">
+									<h2 class="mb-0 number-font">{{ meninggal }}</h2>
+									<p class="text-white mb-0">ORANG</p>
+								</div>
+								<div v-else>
+									<h2 class="mb-0 number-font">Loading...</h2>
+								</div>
 							</div>
 							<div class="ml-auto"> <img style="opacity: 0.4" src="/images/icons/mood-sad-outline.svg" alt="Meninggal" width="50" height="50"> </div>
 						</div>
@@ -45,8 +55,13 @@
 						<div class="d-flex">
 							<div class="text-white">
 								<p class="text-white mb-0">TOTAL SEMBUH</p>
-								<h2 class="mb-0 number-font">{{ sembuh }}</h2>
-								<p class="text-white mb-0">ORANG</p>
+								<div v-if="sembuh">
+									<h2 class="mb-0 number-font">{{ sembuh }}</h2>
+									<p class="text-white mb-0">ORANG</p>
+								</div>
+								<div v-else>
+									<h2 class="mb-0 number-font">Loading...</h2>
+								</div>
 							</div>
 							<div class="ml-auto"> <img style="opacity: 0.4" src="/images/icons/mood-happy-outline.svg" alt="Sembuh" width="50" height="50"> </div>
 						</div>
@@ -59,10 +74,13 @@
 						<div class="d-flex">
 							<div class="text-white">
 								<h2 class="mb-0 number-font">INDONESIA</h2>
-								<p class="text-white mb-0">{{ indonesia.positif }} POSITIF, {{ indonesia.sembuh }} SEMBUH, {{ indonesia.meninggal }} MENINGGAL</p>
+								<p class="text-white mb-0">
+									<span v-if="indonesia.positif && indonesia.sembuh && indonesia.meninggal">{{ indonesia.positif }} POSITIF, {{ indonesia.sembuh }} SEMBUH, {{ indonesia.meninggal }} MENINGGAL</span>
+									<span v-else>Loading...</span>
+								</p>
 							</div>
-							<div class="ml-auto"> 
-								<img style="opacity: 0.6" src="/images/icons/indonesia.png" alt="Positif" width="100"> 
+							<div class="ml-auto">
+								<img style="opacity: 0.6" src="/images/icons/indonesia.png" alt="Positif" width="100">
 							</div>
 						</div>
 					</div>
@@ -100,7 +118,7 @@
 					</table>
 				</div>
 			</div>
-		</div>		
+		</div>
 		<div class="card mt-4">
 			<div class="card-header">
 				<h3 class="card-title">
