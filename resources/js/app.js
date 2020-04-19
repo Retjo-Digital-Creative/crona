@@ -13,20 +13,21 @@ import NotFound from './components/NotFound.vue'
 import Hotline from './components/Hotline.vue'
 import News from './components/News.vue'
 import JawaTimur from './components/JawaTimur.vue'
-import TermOfService from './components/TermOfService.vue'
+import TermsOfService from './components/TermsOfService.vue'
 import About from './components/About.vue'
 
 Vue.use(VueRouter)
 
+let webName = 'Peduli Corona'
 const routes = [
-	{ path: '/', component: Main },
-	{ path: '/kontak', component: Contact },
-	{ path: '/hotline', component: Hotline },
-	{ path: '/news', component: News },
-	{ path: '/404', component: NotFound },
-	{ path: '/jawatimur', component: JawaTimur },
-	{ path: '/about', component: About },
-	{ path: '/tos', component: TermOfService },
+	{ path: '/', meta: {title: 'The Journey of Covid-19 in Indonesia'}, component: Main },
+	{ path: '/kontak', meta: {title: 'Kontak'}, component: Contact },
+	{ path: '/hotline', meta: {title: 'Hotline'}, component: Hotline },
+	{ path: '/news', meta: {title: 'Berita'}, component: News },
+	{ path: '/404', meta: {title: '404'}, component: NotFound },
+	{ path: '/jawatimur', meta: {title: 'Jawa Timur'}, component: JawaTimur },
+	{ path: '/about', meta: {title: 'Tentang'}, component: About },
+	{ path: '/tos', meta: {title: 'Terms of Service'}, component: TermsOfService },
 	{ path: '*', redirect: '/404' }
 ]
 
@@ -38,7 +39,7 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  // document.title = to.meta.title // Set <title> for every components
+  document.title = `${to.meta.title} - ${webName}` // Set <title> for every components
   NProgress.start()
   NProgress.set(0.5)
   next()

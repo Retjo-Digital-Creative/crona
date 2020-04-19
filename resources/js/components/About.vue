@@ -18,7 +18,7 @@
 						Peduli Corona membuka kesempatan untuk setiap orang yang ingin mensupport atau kontribusi ke dalam Peduli Corona. Kamu dapat menghubungi developer dengan melalui halaman <router-link to="/kontak">Kontak</router-link>, atau melalui Official Github dari <a href="https://github.com/alfanjauhari/crona">Peduli Corona</a>.
 					</p>
 					<p>
-						Ketentuan layanan website Peduli Corona dapat di lihat di halaman <router-link to="/tos">Term Of Service</router-link>.
+						Ketentuan layanan website Peduli Corona dapat di lihat di halaman <router-link to="/tos">Terms Of Service</router-link>.
 					</p>
 					<p>
 						<h3>Berikut ini daftar sumber API Peduli Corona :</h3>
@@ -46,7 +46,7 @@
 					</p>
 				</div>
 			</div>
-		</div>    
+		</div>
 	</div>
 </template>
 

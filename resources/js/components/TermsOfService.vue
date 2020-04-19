@@ -20,12 +20,12 @@
 					</p>
 				</div>
 			</div>
-		</div>    
+		</div>
 	</div>
 </template>
 
 <script>
 	export default {
-		name: 'TermOfService'
+		name: 'TermsOfService'
 	}
 </script>
