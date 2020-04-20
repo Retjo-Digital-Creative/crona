@@ -92,7 +92,7 @@
             </div>
             <div class="col-lg-12 col-sm-12 mt-3 mt-lg-0 text-center">
             <br><h1>Peduli Corona</h1></a>
-              <a href="/kontak">Kontak</a> | <a href="/tos">Term Of Service</a><br>
+              <a href="/kontak">Kontak</a> | <a href="/tos">Terms Of Service</a><br>
               Data Provided by <a href="//kawalcorona.com/" target="_blank">Kawal Corona</a> and <a href="https://bnpb-inacovid19.hub.arcgis.com/datasets/">HUB INACOVID-19</a>. Made with <i class="fa fa-heart"></i> by <a href="//instagram.com/surya_maulana70" target="_blank">Surya1337</a> & <a href="//instagram.com/alfanjauhari_" target="_blank">Alfan Jauhari</a>
             </div>
           </div>
