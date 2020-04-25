@@ -6,7 +6,7 @@
     <title>Peduli Corona - Coronavirus Global & Indonesia Live Data</title>
     <meta name="description" content="Informasi data terbaru mengenai kasus Virus Corona di seluruh Dunia dan Indonesia. Data di website pedulicorona.com akan selalu di update secara otomatis dan berasal dari BNPB & Johns Hopkins University">
     <meta name="author" content="Peduli Corona">
-    <meta name="keywords" content="peduli corona, corona, kawalcovid19, kawal, peduli, coronavirus, live data, live, data, indonesia, kawalcorona, covid19, bnpb, grafik corona, persebaran corona">
+    <meta name="keywords" content="Data Corona, Informasi Data Corona, Peduli Corona, Corona, Kawal Covid19, Peduli, Coronavirus, Live Data, Live, Data, Indonesia, Kawal Corona, Covid-19, BNPB, Grafik Perkembangan Corona, Data Persebaran Corona">
 
     <meta name="google-site-verification" content="N_hXQgjyxwfuSMnwmUVhOwoZmR0RCXa5s7P4UO1pkl8" />
     <meta property="og:title" content="Peduli Corona - Coronavirus Global & Indonesia Live Data" />
