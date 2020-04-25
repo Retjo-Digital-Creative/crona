@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" name="viewport">
-    <title>The Journey of Covid-19 in Indonesia - Peduli Corona</title>
-    <meta name="description" content="Live Data & Statistik Penyebaran Virus Corona di Indonesia dan Dunia">
+    <title>Peduli Corona - Coronavirus Global & Indonesia Live Data</title>
+    <meta name="description" content="Informasi data terbaru mengenai kasus Virus Corona di seluruh Dunia dan Indonesia. Data di website pedulicorona.com akan selalu di update secara otomatis dan berasal dari BNPB & Johns Hopkins University">
     <meta name="author" content="Peduli Corona">
+    <meta name="keywords" content="peduli corona, corona, kawalcovid19, kawal, peduli, coronavirus, live data, live, data, indonesia, kawalcorona, covid19, bnpb, grafik corona, persebaran corona">
 
     <meta name="google-site-verification" content="N_hXQgjyxwfuSMnwmUVhOwoZmR0RCXa5s7P4UO1pkl8" />
-    <meta property="og:title" content="The Journey of Covid-19 in Indonesia - Peduli Corona" />
-    <meta property="og:description" content="Live Data & Penyebaran Coronavirus (Covid-19) Di Indonesia Dan Dunia" />
+    <meta property="og:title" content="Peduli Corona - Coronavirus Global & Indonesia Live Data" />
+    <meta property="og:description" content="Informasi data terbaru mengenai kasus Virus Corona di seluruh Dunia dan Indonesia. Data di website pedulicorona.com akan selalu di update secara otomatis dan berasal dari BNPB & Johns Hopkins University" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://pedulicorona.com/" />
     <meta property="og:image" content="{{ asset('images/thumbnail.jpg') }}" />
