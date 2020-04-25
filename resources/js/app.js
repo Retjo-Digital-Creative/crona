@@ -20,7 +20,7 @@ Vue.use(VueRouter)
 
 let webName = 'Peduli Corona'
 const routes = [
-	{ path: '/', meta: {title: 'The Journey of Covid-19 in Indonesia'}, component: Main },
+	{ path: '/', meta: {title: 'Peduli Corona - Coronavirus Global & Indonesia Live Data'}, component: Main },
 	{ path: '/kontak', meta: {title: 'Kontak'}, component: Contact },
 	{ path: '/hotline', meta: {title: 'Hotline'}, component: Hotline },
 	{ path: '/news', meta: {title: 'Berita'}, component: News },
