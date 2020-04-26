@@ -14,16 +14,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://pedulicorona.com/" />
     <meta property="og:image" content="{{ asset('images/thumbnail.jpg') }}" />
-    <meta name="yandex-verification" content="16a56f34171b8d4d" />
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164613890-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-164613890-1');
-    </script>
 
     <link rel="canonical" href="https://pedulicorona.com/">
     <link rel="icon" href="{{ asset('fav.png') }}">
