@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/{any}', 'Frontend\MainController@index')->where('any', '.*');
+
+Route::get('/api/indonesia', 'CovidController@SebaranCovid');
+Route::get('/api/provinsi', 'CovidController@SebaranIndo');
+Route::get('/api', 'CovidController@SebaranGlobal');

@@ -21,7 +21,7 @@ class CovidController extends Controller
         $meninggal = $meninggalGlobal->json();
 
 
-        return view('index', compact('indonesia', 'positif', 'meninggal', 'sembuh'));
+        return response()->json('$indonesia', '$positif', '$sembuh', '$meninggal');
     }
 
     public function SebaranIndo()
@@ -31,17 +31,17 @@ class CovidController extends Controller
 
         $provinsi = $responeProvinsi->json();
 
-        return view('table-indonesia', compact('provinsi'));
+        return response()->json($provinsi);
     }
 
-    public function SebaranGLobal()
+    public function SebaranGlobal()
     {
 
         $responeGlobal = Http::get('https://api.kawalcorona.com/');
 
         $global = $responeGlobal->json();
 
-        return view('table-global', compact('global'));
+        return response->json($provinsis);
     }
     
 }
