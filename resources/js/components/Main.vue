@@ -282,33 +282,33 @@
 				today = dd + '/' + mm + '/' + yyyy + ' ' + hour + ':' + minutes + ':' + seconds;
 				this.date = today
 
-				d3.json('https://api.kawalcorona.com/positif/').then(response => {
+				d3.json('/api/all/positif/').then(response => {
 					this.positif = response.value
 				})
 
 				// Get global recovered
-				d3.json('https://api.kawalcorona.com/sembuh/').then(response => {
+				d3.json('/api/all/sembuh/').then(response => {
 					this.sembuh = response.value
 				})
 
 				// Get global deaths
-				d3.json('https://api.kawalcorona.com/meninggal/').then(response => {
+				d3.json('/api/all/meninggal/').then(response => {
 					this.meninggal = response.value
 				})
 
 				// Get indonesian data covid-19
-				d3.json('https://api.kawalcorona.com/indonesia/').then(response => {
+				d3.json('/api/indonesia/').then(response => {
 					this.indonesia.meninggal = response[0].meninggal
 					this.indonesia.positif = response[0].positif
 					this.indonesia.sembuh = response[0].sembuh
 				})
 
 				// Get all global
-				d3.json('https://api.kawalcorona.com/').then(response => {
+				d3.json('/api/all').then(response => {
 					this.globals = response
 				})
 
-				d3.json('https://services5.arcgis.com/VS6HdKS0VfIhv8Ct/arcgis/rest/services/COVID19_Indonesia_per_Provinsi/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json').then(response => {
+				d3.json('/api/indonesia/provinsi').then(response => {
 					this.indonesia.provinsi = response.features
 					console.log(this.indonesia.provinsi)
 				})

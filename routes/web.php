@@ -13,11 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/{any}', 'Frontend\MainController@index')->where('any', '.*');
-
+// Route::get('/{any}', 'Frontend\MainController@index');
+// Route::get('/api/indonesia', 'CovidController@SebaranCovid');
+// Route::get('/api/provinsi', 'CovidController@SebaranIndo');
+// Route::get('/api', 'CovidController@SebaranGlobal');
+Route::get('/api/{options?}/{country?}', 'CovidController@getData');
 
 Route::fallback(function () {
+    return view('home.index');
 });
-Route::get('/api/indonesia', 'CovidController@SebaranCovid');
-Route::get('/api/provinsi', 'CovidController@SebaranIndo');
-Route::get('/api', 'CovidController@SebaranGlobal');

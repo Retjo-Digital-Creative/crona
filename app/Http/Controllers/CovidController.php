@@ -7,47 +7,53 @@ use Illuminate\Support\Facades\Http;
 
 class CovidController extends Controller
 {
-    public function SebaranCovid()
+    public $req;
+
+    public function __construct()
     {
-
-        $responeIndonesia = Http::get('https://api.kawalcorona.com/indonesia');
-        $positfGlobal = Http::get('https://api.kawalcorona.com/positif');
-        $sembuhGlobal = Http::get('https://api.kawalcorona.com/sembuh');
-        $meninggalGlobal = Http::get('https://api.kawalcorona.com/meninggal');
-
-        $indonesia = $responeIndonesia->json();
-        $positif = $positfGlobal->json();
-        $sembuh = $sembuhGlobal->json();
-        $meninggal = $meninggalGlobal->json();
-
-
-        return response()->json([
-            'indonesia' => $indonesia,
-            'positif' => $positif,
-            'sembuh' => $sembuh,
-            'meninggal' => $meninggal
-        ]);
-
+        $this->req = 'https://api.kawalcorona.com/';
     }
 
-    public function SebaranIndo()
+    public function getData($country, $options = null)
     {
-
-        $responeProvinsi = Http::get('https://api.kawalcorona.com/indonesia/provinsi');
-
-        $provinsi = $responeProvinsi->json();
-
-        return response()->json($provinsi);
+        try {
+            if($country === 'all') {
+                if(is_null($options)) {
+                    $response = Http::get($this->req)->json();
+                    return response($response);
+                } else {
+                    switch ($options) {
+                        case 'positif':
+                            $response = Http::get($this->req . $options)->json();
+                            return response($response);
+                            break;
+                        
+                        case 'meninggal':
+                            $response = Http::get($this->req . $options)->json();
+                            return response($response);
+                            break;
+                        case 'sembuh':
+                            $response = Http::get($this->req . $options)->json();
+                            return response($response);
+                            break;
+                        default:
+                            throw new \Exception('Options Not Found, Try Another Options!');
+                            break;
+                    }
+                }
+            } else if($country === 'indonesia') {
+                if(is_null($options)) {
+                    $response = Http::get($this->req . 'indonesia')->json();
+                    return response($response);
+                } else {
+                    $response = Http::get('https://services5.arcgis.com/VS6HdKS0VfIhv8Ct/arcgis/rest/services/COVID19_Indonesia_per_Provinsi/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json')->json();
+                    return response($response);
+                }
+            } else {
+                throw new \Exception('Please Input Queries!');
+            }
+        } catch(\Exception $e) {
+            throw new \Exception($e->getMessage());
+        }
     }
-
-    public function SebaranGlobal()
-    {
-
-        $responeGlobal = Http::get('https://api.kawalcorona.com/');
-
-        $global = $responeGlobal->json();
-
-        return response->json($provinsis);
-    }
-    
 }
