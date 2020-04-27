@@ -21,7 +21,13 @@ class CovidController extends Controller
         $meninggal = $meninggalGlobal->json();
 
 
-        return response()->json('$indonesia', '$positif', '$sembuh', '$meninggal');
+        return response()->json([
+            'indonesia' => $indonesia,
+            'positif' => $positif,
+            'sembuh' => $sembuh,
+            'meninggal' => $meninggal
+        ]);
+
     }
 
     public function SebaranIndo()
